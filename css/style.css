@@ -1,0 +1,47 @@
+body{
+  background-color:#093b4c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.grid {
+  width: 60%;
+  height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.box {
+  width: calc(100% / 11);
+  height: calc(100% / 10);
+  color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+}
+
+.FizzBuzzcolor{
+  background-color: #ffd166;
+}
+
+.Fizzcolor{
+  background-color: #16d6a1;
+}
+
+.Buzzcolor{
+  background-color: #f0466f;
+}
+
+.main-color{
+  background-color: #1489b2;
+}

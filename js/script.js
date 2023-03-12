@@ -19,13 +19,13 @@ for (let i = 1; i <=100; i++){
     let classColor
     if ((i % 3 === 0) && (i % 5 === 0)) {
         result = "FizzBuzz";
-        classColor = "FBcolor"
+        classColor = "FizzBuzzcolor"
     } else if (i % 5 === 0){
         result = "Buzz"
-        classColor = "Bcolor"
+        classColor = "Buzzcolor"
     } else if (i % 3 === 0){
         result= "Fizz"
-        classColor = "Fcolor"
+        classColor = "Fizzcolor"
     } else{
         result = i
         classColor = "main-color"
