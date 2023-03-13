@@ -19,13 +19,13 @@ for (let i = 1; i <=100; i++){
     let classColor
     if ((i % 3 === 0) && (i % 5 === 0)) {
         result = "FizzBuzz";
-        classColor = "FizzBuzzcolor"
+        classColor = "fizz-buzz-color"
     } else if (i % 5 === 0){
         result = "Buzz"
-        classColor = "Buzzcolor"
+        classColor = "buzz-color"
     } else if (i % 3 === 0){
         result= "Fizz"
-        classColor = "Fizzcolor"
+        classColor = "fizz-color"
     } else{
         result = i
         classColor = "main-color"
@@ -34,3 +34,4 @@ for (let i = 1; i <=100; i++){
     console.log(result);
     gridElem.innerHTML += `<div class="box ${classColor}">${result}</div>`;
 }
+
